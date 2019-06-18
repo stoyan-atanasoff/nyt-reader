@@ -1,0 +1,21 @@
+img.news-details-image {
+  border: 1px solid #f52c56;
+  padding: 5px;
+}
+div.news-details-page {
+  padding: 20px 30px;
+}
+p.news-details-body {
+  font-size: 17px;
+}
+a.news-details-back {
+  color: #f52c56;
+  display: block;
+  margin: 10px;
+  transition: margin 300ms;
+  float: left;
+}
+a.news-details-back:hover {
+  color: #db133e;
+  margin-left: 5px;
+}

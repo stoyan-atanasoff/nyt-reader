@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NewsListPage /> News load failed render and match the snapshot 1`] = `
+<div
+  class="ant-row-flex ant-row-flex-center news-message"
+  lign="top"
+>
+  <div
+    class="ant-col"
+  >
+    <div
+      class="ant-alert ant-alert-error ant-alert-no-icon"
+      data-show="true"
+    >
+      <span
+        class="ant-alert-message"
+      >
+        There is an error while loading news
+      </span>
+      <span
+        class="ant-alert-description"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<NewsListPage /> News loaded successfully should render correctly 1`] = `
+<div
+  class="ant-row-flex"
+  lign="top"
+>
+  <div
+    class="ant-col ant-col-xs-24 ant-col-sm-24"
+  >
+    <div
+      class="blog-card "
+    >
+      <div
+        class="meta"
+      >
+        <div
+          class="photo"
+          style="background-image: url(https://static01.nyt.com/images/2018/06/04/us/05xp-graduation2/05xp-graduation2-mediumThreeByTwo440.jpg);"
+        />
+        <ul
+          class="details"
+        >
+          <li
+            class="author"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-user fa-w-14 "
+              data-icon="user"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z"
+                fill="currentColor"
+              />
+            </svg>
+             
+            By LAURA M. HOLSON
+          </li>
+          <li
+            class="date"
+          >
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-calendar fa-w-14 "
+              data-icon="calendar"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12 192h424c6.6 0 12 5.4 12 12v260c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V204c0-6.6 5.4-12 12-12zm436-44v-36c0-26.5-21.5-48-48-48h-48V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H160V12c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v36c0 6.6 5.4 12 12 12h424c6.6 0 12-5.4 12-12z"
+                fill="currentColor"
+              />
+            </svg>
+             
+            2018-06-04
+          </li>
+        </ul>
+      </div>
+      <div
+        class="description"
+      >
+        <h1>
+          Kentucky Crowd Cheers Valedictorian’s Trump Quote, Then Learns Obama Said It
+        </h1>
+        <h2>
+          U.S.
+        </h2>
+        <p>
+          A high school valedictorian quoted Trump. The crowd roared. Then: “Just kidding,” he said. “That was Barack Obama.”
+        </p>
+        <p
+          class="read-more"
+        >
+          <a
+            href="/news/100000005935794"
+          >
+            Read More 
+            <svg
+              aria-hidden="true"
+              class="svg-inline--fa fa-arrow-right fa-w-14 "
+              data-icon="arrow-right"
+              data-prefix="fas"
+              focusable="false"
+              role="img"
+              viewBox="0 0 448 512"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M190.5 66.9l22.2-22.2c9.4-9.4 24.6-9.4 33.9 0L441 239c9.4 9.4 9.4 24.6 0 33.9L246.6 467.3c-9.4 9.4-24.6 9.4-33.9 0l-22.2-22.2c-9.5-9.5-9.3-25 .4-34.3L311.4 296H24c-13.3 0-24-10.7-24-24v-32c0-13.3 10.7-24 24-24h287.4L190.9 101.2c-9.8-9.3-10-24.8-.4-34.3z"
+                fill="currentColor"
+              />
+            </svg>
+          </a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<NewsListPage /> News loading should render and match the snapshot 1`] = `
+<div
+  class="loader"
+>
+  <div
+    class="ant-spin ant-spin-spinning"
+  >
+    <span
+      class="ant-spin-dot ant-spin-dot-spin"
+    >
+      <i
+        class="ant-spin-dot-item"
+      />
+      <i
+        class="ant-spin-dot-item"
+      />
+      <i
+        class="ant-spin-dot-item"
+      />
+      <i
+        class="ant-spin-dot-item"
+      />
+    </span>
+  </div>
+  <br />
+  
+</div>
+`;

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Header should render and match the snapshot 1`] = `
+<div
+  class="ant-row"
+>
+  <div
+    class="nav-bar"
+  >
+    <div
+      class="ant-col ant-col-xs-0 ant-col-md-24"
+    >
+      <a
+        class="header-link selected"
+        href="/"
+      >
+        Home
+      </a>
+      <a
+        class="header-link "
+        href="/news"
+      >
+        News
+      </a>
+    </div>
+    <div
+      class="ant-col ant-col-xs-24 ant-col-md-0"
+    >
+      <button
+        class="ant-btn bars-menu ant-btn-primary ant-btn-round ant-btn-lg ant-btn-icon-only"
+        type="button"
+      >
+        <i
+          aria-label="icon: menu"
+          class="anticon anticon-menu"
+        >
+          <svg
+            aria-hidden="true"
+            class=""
+            data-icon="menu"
+            fill="currentColor"
+            focusable="false"
+            height="1em"
+            viewBox="64 64 896 896"
+            width="1em"
+          >
+            <path
+              d="M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z"
+            />
+          </svg>
+        </i>
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Header Should close drawer menu 1`] = `"<div><div class=\\"ant-row\\"><div class=\\"nav-bar\\"><div class=\\"ant-col ant-col-xs-0 ant-col-md-24\\"><a class=\\"header-link selected\\" href=\\"/\\">Home</a><a class=\\"header-link \\" href=\\"/news\\">News</a></div><div class=\\"ant-col ant-col-xs-24 ant-col-md-0\\"><button type=\\"button\\" class=\\"ant-btn bars-menu ant-btn-primary ant-btn-round ant-btn-lg ant-btn-icon-only\\" ant-click-animating-without-extra-node=\\"false\\"><i aria-label=\\"icon: menu\\" class=\\"anticon anticon-menu\\"><svg viewBox=\\"64 64 896 896\\" class=\\"\\" data-icon=\\"menu\\" width=\\"1em\\" height=\\"1em\\" fill=\\"currentColor\\" aria-hidden=\\"true\\" focusable=\\"false\\"><path d=\\"M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z\\"></path></svg></i></button></div></div></div><div class=\\"ant-row-flex ant-row-flex-center\\"><div class=\\"ant-col ant-col-md-16\\"><div class=\\"homepage-body\\"><span class=\\"homepage-greeting\\">Hello Everyone!</span><br>This is a sample reader client of New York Times top articles! <br>Don't forget to set your own api key.<br><br>This application s built with:<ul><li>React (16.8.6)</li><li>Redux (4.0.1)</li><li>React-router (5.0.1)</li><li>Saga (1.0.3)</li><li>Antd (3.19.4)</li></ul></div></div></div></div><div><div tabindex=\\"-1\\" class=\\"ant-drawer ant-drawer-right\\"><div class=\\"ant-drawer-mask\\"></div><div class=\\"ant-drawer-content-wrapper\\" style=\\"width: 256px; transform: translateX(100%);\\"><div class=\\"ant-drawer-content\\"><div class=\\"ant-drawer-wrapper-body\\" style=\\"overflow: auto; height: 100%;\\"><div class=\\"ant-drawer-header\\"><div class=\\"ant-drawer-title\\">Navigation</div><button aria-label=\\"Close\\" class=\\"ant-drawer-close\\"><i aria-label=\\"icon: close\\" class=\\"anticon anticon-close\\"><svg viewBox=\\"64 64 896 896\\" class=\\"\\" data-icon=\\"close\\" width=\\"1em\\" height=\\"1em\\" fill=\\"currentColor\\" aria-hidden=\\"true\\" focusable=\\"false\\"><path d=\\"M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 0 0 203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z\\"></path></svg></i></button></div><div class=\\"ant-drawer-body\\"><a class=\\"drawer-link selected\\" href=\\"/\\">Home</a><a class=\\"drawer-link \\" href=\\"/news\\">News</a></div></div></div></div></div></div>"`;
+
+exports[`Header Should drawer link works 1`] = `"<div><div class=\\"ant-row\\"><div class=\\"nav-bar\\"><div class=\\"ant-col ant-col-xs-0 ant-col-md-24\\"><a class=\\"header-link selected\\" href=\\"/\\">Home</a><a class=\\"header-link \\" href=\\"/news\\">News</a></div><div class=\\"ant-col ant-col-xs-24 ant-col-md-0\\"><button type=\\"button\\" class=\\"ant-btn bars-menu ant-btn-primary ant-btn-round ant-btn-lg ant-btn-icon-only\\" ant-click-animating-without-extra-node=\\"false\\"><i aria-label=\\"icon: menu\\" class=\\"anticon anticon-menu\\"><svg viewBox=\\"64 64 896 896\\" class=\\"\\" data-icon=\\"menu\\" width=\\"1em\\" height=\\"1em\\" fill=\\"currentColor\\" aria-hidden=\\"true\\" focusable=\\"false\\"><path d=\\"M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z\\"></path></svg></i></button></div></div></div><div class=\\"ant-row-flex ant-row-flex-center\\"><div class=\\"ant-col ant-col-md-16\\"><div class=\\"homepage-body\\"><span class=\\"homepage-greeting\\">Hello Everyone!</span><br>This is a sample reader client of New York Times top articles! <br>Don't forget to set your own api key.<br><br>This application s built with:<ul><li>React (16.8.6)</li><li>Redux (4.0.1)</li><li>React-router (5.0.1)</li><li>Saga (1.0.3)</li><li>Antd (3.19.4)</li></ul></div></div></div></div><div><div tabindex=\\"-1\\" class=\\"ant-drawer ant-drawer-right\\"><div class=\\"ant-drawer-mask\\"></div><div class=\\"ant-drawer-content-wrapper\\" style=\\"width: 256px; transform: translateX(100%);\\"><div class=\\"ant-drawer-content\\"><div class=\\"ant-drawer-wrapper-body\\" style=\\"overflow: auto; height: 100%;\\"><div class=\\"ant-drawer-header\\"><div class=\\"ant-drawer-title\\">Navigation</div><button aria-label=\\"Close\\" class=\\"ant-drawer-close\\"><i aria-label=\\"icon: close\\" class=\\"anticon anticon-close\\"><svg viewBox=\\"64 64 896 896\\" class=\\"\\" data-icon=\\"close\\" width=\\"1em\\" height=\\"1em\\" fill=\\"currentColor\\" aria-hidden=\\"true\\" focusable=\\"false\\"><path d=\\"M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 0 0 203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z\\"></path></svg></i></button></div><div class=\\"ant-drawer-body\\"><a class=\\"drawer-link selected\\" href=\\"/\\">Home</a><a class=\\"drawer-link \\" href=\\"/news\\">News</a></div></div></div></div></div></div>"`;
+
+exports[`Header Should open drawer menu 1`] = `"<div><div class=\\"ant-row\\"><div class=\\"nav-bar\\"><div class=\\"ant-col ant-col-xs-0 ant-col-md-24\\"><a class=\\"header-link selected\\" href=\\"/\\">Home</a><a class=\\"header-link \\" href=\\"/news\\">News</a></div><div class=\\"ant-col ant-col-xs-24 ant-col-md-0\\"><button type=\\"button\\" class=\\"ant-btn bars-menu ant-btn-primary ant-btn-round ant-btn-lg ant-btn-icon-only\\" ant-click-animating-without-extra-node=\\"false\\"><i aria-label=\\"icon: menu\\" class=\\"anticon anticon-menu\\"><svg viewBox=\\"64 64 896 896\\" class=\\"\\" data-icon=\\"menu\\" width=\\"1em\\" height=\\"1em\\" fill=\\"currentColor\\" aria-hidden=\\"true\\" focusable=\\"false\\"><path d=\\"M904 160H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0 624H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8zm0-312H120c-4.4 0-8 3.6-8 8v64c0 4.4 3.6 8 8 8h784c4.4 0 8-3.6 8-8v-64c0-4.4-3.6-8-8-8z\\"></path></svg></i></button></div></div></div><div class=\\"ant-row-flex ant-row-flex-center\\"><div class=\\"ant-col ant-col-md-16\\"><div class=\\"homepage-body\\"><span class=\\"homepage-greeting\\">Hello Everyone!</span><br>This is a sample reader client of New York Times top articles! <br>Don't forget to set your own api key.<br><br>This application s built with:<ul><li>React (16.8.6)</li><li>Redux (4.0.1)</li><li>React-router (5.0.1)</li><li>Saga (1.0.3)</li><li>Antd (3.19.4)</li></ul></div></div></div></div><div><div tabindex=\\"-1\\" class=\\"ant-drawer ant-drawer-right ant-drawer-open\\"><div class=\\"ant-drawer-mask\\"></div><div class=\\"ant-drawer-content-wrapper\\" style=\\"width: 256px;\\"><div class=\\"ant-drawer-content\\"><div class=\\"ant-drawer-wrapper-body\\" style=\\"overflow: auto; height: 100%;\\"><div class=\\"ant-drawer-header\\"><div class=\\"ant-drawer-title\\">Navigation</div><button aria-label=\\"Close\\" class=\\"ant-drawer-close\\"><i aria-label=\\"icon: close\\" class=\\"anticon anticon-close\\"><svg viewBox=\\"64 64 896 896\\" class=\\"\\" data-icon=\\"close\\" width=\\"1em\\" height=\\"1em\\" fill=\\"currentColor\\" aria-hidden=\\"true\\" focusable=\\"false\\"><path d=\\"M563.8 512l262.5-312.9c4.4-5.2.7-13.1-6.1-13.1h-79.8c-4.7 0-9.2 2.1-12.3 5.7L511.6 449.8 295.1 191.7c-3-3.6-7.5-5.7-12.3-5.7H203c-6.8 0-10.5 7.9-6.1 13.1L459.4 512 196.9 824.9A7.95 7.95 0 0 0 203 838h79.8c4.7 0 9.2-2.1 12.3-5.7l216.5-258.1 216.5 258.1c3 3.6 7.5 5.7 12.3 5.7h79.8c6.8 0 10.5-7.9 6.1-13.1L563.8 512z\\"></path></svg></i></button></div><div class=\\"ant-drawer-body\\"><a class=\\"drawer-link selected\\" href=\\"/\\">Home</a><a class=\\"drawer-link \\" href=\\"/news\\">News</a></div></div></div></div></div></div>"`;

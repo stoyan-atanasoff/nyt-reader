@@ -1,0 +1,13 @@
+.bars-menu {
+  float: right;
+  background: none !important;
+  border: 0 !important;
+  margin-right: 10px;
+  font-size: 21px;
+  margin-top: 7px;
+}
+.nav-bar {
+  text-align: center;
+  height: 50px;
+  background-color: #f52c56;
+}
