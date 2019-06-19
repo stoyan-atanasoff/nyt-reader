@@ -21,8 +21,13 @@ Then open your browser at: http://localhost:3000
 ![Vulnerabilities](http://store.picbg.net/pubpic/8B/5C/b678efa80b338b5c.png)  
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+## Demo
+You can see demo of the project here https://nyt-reader-app.herokuapp.com/news  
+Please refresh twice in case you see the following message
+![Bug](http://store.picbg.net/pubpic/9A/FC/ac940f867f879afc.png)  
+
 ## Usage
-![Usage](http://store.picbg.net/pubpic/F3/64/c91d5c245123f364.png)
+![Usage](http://store.picbg.net/pubpic/E9/08/374d724d5f1be908.png)
 ![Usage](http://store.picbg.net/pubpic/A8/3F/4def6a75d0a5a83f.png)
 ![Usage](http://store.picbg.net/pubpic/BA/27/c3011c226a68ba27.png)
 ![Usage](http://store.picbg.net/pubpic/32/76/077a890bdb533276.png)
